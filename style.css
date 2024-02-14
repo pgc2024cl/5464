@@ -1,0 +1,52 @@
+body {
+    background-color: #87CEEB;
+}
+
+.bloque1, .bloque2 {
+    border: 2px solid;
+    margin: 10px 0;
+}
+
+.bloque1 {
+    background-color: gold;
+    padding: 10px;
+}
+
+.bloque2 {
+    background-color: silver;
+}
+
+footer {
+    text-align: center;
+}
+
+h4 {
+    margin: 0;
+}
+
+.botones {
+    margin-top: 10px;
+}
+
+.botones button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+}
+
+h4 {
+    margin: 0;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+    margin-top: 10px;
+}

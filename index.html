@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - cajas+creditos</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="styles.css">
+    <title>Mi Página Web</title>
+</head>
+
+<body>
+    <div align="center"><img src="https://estaticos-cdn.prensaiberica.es/clip/506f9cfe-e1ca-4ebc-a8bb-9cf4982270dd_16-9-aspect-ratio_default_0.jpg" alt="oso grizzly" width="500"></div>
+    <div class="bloque1" id="primerDiv">
+        <h1>Oso Grizzly</h1>
+        <section>
+            <h2>Introducción 1</h2>
+            <p>El oso grizzly u oso gris (Ursus arctos horribilis) es una de las subespecies del oso pardo (Ursus arctos) más grandes del planeta, que suele vivir en las tierras altas del territorio norteamericano. Es un animal solitario, excepto durante la temporada del desove del salmón, cuando se junta un enorme número de osos en arroyos y zonas costeras para alimentarse.</p>
+        </section>
+    </div>
+    <div class="bloque2">
+        <section>
+            <h2>Desarrollo 2</h2>
+            <p>El oso grizzly es el tercer omnívoro más grande de Norteamérica, después del oso polar y del oso kodiak. Puede alcanzar pesos de hasta 550 kg, aunque ciertos especímenes de la península de Alaska han llegado a pesar los 680 kg...</p>
+            <div>Zonas de hábitat:</div>
+            <div>Zonas del noroeste de USA</div>
+            <div>Canadá</div>
+            <div>Península de Kamchatka (Siberia)</div>
+        </section>
+        <section>
+            <h2>Desarrollo 3</h2>
+            <div><a href="https://www.nationalgeographic.com.es/naturaleza/grandes-reportajes/oso-grizzly-rey-bosques-alaska_13253">National Geographic</a></div>
+            <div><a href="https://es.wikipedia.org/wiki/Ursus_arctos">Wikipedia</a></div>
+            <div><a href="https://www.bioenciclopedia.com/oso-grizzly-102.html">Bioenciclopedia</a></div>
+        </section>
+    </div>
+    <div class="botones">
+        <button onclick="ocultarDiv()">Ocultar Primer Div</button>
+        <button onclick="mostrarDiv()">Mostrar Primer Div</button>
+        <button onclick="cambiarColorFondo()">Cambiar Color de Fondo</button>
+        <button onclick="obtenerUbicacion()">Obtener Ubicación</button>
+    </div>
+    <div id="ubicacion"></div>
+    <div id="map"></div>
+    <footer>
+        <h4>Copyright 2024</h4>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="scripts.js"></script>
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
